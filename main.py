@@ -3,9 +3,6 @@ import argparse
 import cv2
 import matplotlib.pyplot as pyplot
 import pygame
-# adios
-# OKK
-# importar scripts de las funciones
 import image_analysis
 import music_player
 
