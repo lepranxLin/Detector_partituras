@@ -1,4 +1,5 @@
 # Proyecto de Visión por Computadores: Detector_partituras
+#------------------------------------------------------
 import argparse
 import cv2
 import matplotlib.pyplot as pyplot
