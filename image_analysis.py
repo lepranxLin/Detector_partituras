@@ -11,8 +11,8 @@ def procesar_partitura(partitura_grey):
 
     #Sistema de detección de las líneas de la partitura
     #----------------------------------------------------------------------------------
-    longitud = anchura//2
-
+    longitud = 3*anchura//4
+    
     #Se crea un elemento estructurante horizontal(línea horizontal)
     Ejemplo_línea = cv2.getStructuringElement(
         cv2.MORPH_RECT, #Forma rectangular

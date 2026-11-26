@@ -71,9 +71,7 @@ def reproducir():
     # Recorrer la lista de notas
     for i in range(max(len(NOTAS), len(NOTAS2))):
         s1 = piano(NOTAS[i][1], 0.75)
-        s2 = piano(NOTAS2[i][1], 0.75)
         
         s1.play()
-        s2.play()
 
         time.sleep(0.35)
